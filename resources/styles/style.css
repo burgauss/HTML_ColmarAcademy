@@ -148,6 +148,7 @@ header .mobil {
     align-items: center;
     overflow: hidden;
     margin-left: 1.5rem;
+    margin-top: 1.5rem;
   }
 
   .section .left{
@@ -166,4 +167,76 @@ header .mobil {
     text-align: left;
   }
 
+  .section .right{
+    border-left: solid 1px gray;
+    margin-left: 1.5rem;
+}
+.section .article{
+    border-bottom: solid 2px gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+  }
 
+  .section .article .image-container img{
+    width: 80%;
+  }
+
+  .section .article img{
+    /* width: 60%; */
+
+  }
+
+  .article-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+  }
+
+  .article-content h3{
+    color: #4a4a4a;
+  }
+
+  .article-content p{
+    font-size: 0.7rem;
+  }
+
+/* courses section */
+
+.courses-section{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.courses-section .title{
+    text-align: center;
+    color: #4a4a4a;
+}
+.courses{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.courses .course{
+    background-color: white;
+    width: 25%;
+    height: 300px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.course h3{
+    color: #4a4a4a;
+}
+
+.course .image-container img{
+    width:100%;
+
+}
